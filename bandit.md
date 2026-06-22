@@ -1,4 +1,4 @@
-# bandit
+# OverTheWire: Bandit
 - [game link](https://overthewire.org/wargames/bandit/)
 - ssh command: `ssh bandit0@bandit.labs.overthewire.org -p 2220`
   - NOTE: change number in username to level number
@@ -63,7 +63,7 @@ The password for the next level is stored somewhere on the server and has all of
 - NOTE: command returns many files with errors like "Permission denied" so it's best to redirect standard error to /dev/null (which disgards them)
 - Cat the only revealed file
 
-## level  → level 8
+## level 7 → level 8
 ### problem
 The password for the next level is stored in the file data.txt next to the word millionth
 ### solution
